@@ -17,7 +17,7 @@ async function sendEmails() {
         const mailOptions = {
             from: 'Chaitanya Jambhulkar <chaitanyajambhulkar768@gmail.com>',
             to: recipient_email,
-            subject: 'Hello from ChatGPT',
+            subject: 'Hello!',
             html: `<p>Dear ${username},</p><p>Hello!</p> I'm Chaitanya`
         };
 
